@@ -6,6 +6,6 @@ import routes from './routes';
 import theme from './theme';
 
 ReactDOM.render(
-	<ThemeProvider theme={theme}>
-		<Router history={browserHistory} routes={routes} />
-	</ThemeProvider>, document.getElementById('root'));
+  <ThemeProvider theme={theme}>
+    <Router history={browserHistory} routes={routes} />
+  </ThemeProvider>, document.getElementById('root'));
